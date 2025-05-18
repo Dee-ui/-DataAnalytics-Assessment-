@@ -94,7 +94,7 @@ This repository contains sql data analysis queries to get.
 
 | Question | Challenge                                                       | Resolution                                                                                 |
 | -------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Q1       | **Query timeout or lost connection** due to subquery complexity | Made filtering better by placing confirmed deposits in WHERE clause early and reducing joins|
+| Q1       | I was encountering a **Query timeout or lost connection** due to subquery complexity.| To resolve this, I made filtering better by placing confirmed deposits in WHERE clause early and reducing joins|
 | Q2       | I encountered **Divide-by-zero errors** from new signups with zero tenure.    | I Used `NULLIF()` safeguard in calculations to account for that              |
 | Q3       | **Plans with no transactions** causing ambiguity in joins       | I used `LEFT JOIN` and `HAVING` clause to bring out non-active plans accurately.           |
 | Q4       | **Skewed CLV from short-tenure users**                          | I capped edge cases using conditional logic and formatting with `ROUND()` function         |

@@ -90,7 +90,7 @@ This repository contains sql data analysis queries to get.
 - Tenure-based analysis balances recent vs. long-term users.
 - This simplified CLV helps gives priority to high-value segments.
 
-### ⚠Challenges & Resolutions
+### Challenges & Resolutions
 
 | Question | Challenge                                                       | Resolution                                                                                 |
 | -------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
